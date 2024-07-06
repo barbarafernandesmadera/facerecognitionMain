@@ -1,0 +1,7 @@
+torch==2.2.2+cu118 torchvision==0.18.1+cu118 -f https://download.pytorch.org/whl/cu118/torch_stable.html
+facenet-pytorch==2.6.0
+opencv_python==4.10.8.84
+matplotlib
+pandas
+scipy
+scikit-learn
