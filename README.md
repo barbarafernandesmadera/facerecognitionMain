@@ -1,5 +1,7 @@
 # Facial Identification and Spoofing Detection Project
 
+<img src="logo.webp" alt="Project Logo" width="width: 50%;"/>
+
 This project focuses on facial identification and spoofing detection. No deep learning models were retrained for this project, as fine-tuning depends on the specific context of different datasets. Instead, we utilized existing high-performance models for the mentioned problems: [FaceNet](https://pypi.org/project/facenet-pytorch/) for face detection and embedding, and [Silent-Face-Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing) for spoofing detection.
 
 ## Project Overview
@@ -68,7 +70,7 @@ For more information, refer to the [MSU Mobile Face Spoofing Database](https://p
 
 #### FAR and Recall vs. Threshold Plot
 
-![FAR and Recall vs. Threshold](data/results/far_recall_spoofing.png)
+<img src="data/results/far_recall_spoofing.png" alt="FAR and Recall vs. Threshold" width="width: 50%;"/>
 
 This plot illustrates the relationship between False Acceptance Rate (FAR) and Recall as the threshold varies for spoofing detection. The optimal threshold is selected to minimize the difference between FAR and FRR, thus balancing the rate of false acceptances and rejections.
 
@@ -94,7 +96,7 @@ This plot illustrates the relationship between False Acceptance Rate (FAR) and R
 
 #### FAR and Recall vs. Threshold Plot
 
-![FAR and Recall vs. Threshold](data/results/far_recall_identification.png)
+<img src="data/results/far_recall_identification.png" alt="FAR and Recall vs. Threshold" width="width: 50%;"/>
 
 This plot demonstrates the variation of False Acceptance Rate (FAR) and Recall with changing thresholds in the context of face identification. The goal is to identify the threshold that minimizes the difference between FAR and FRR, optimizing the trade-off between identification accuracy and error rates.
 
@@ -103,3 +105,5 @@ This plot demonstrates the variation of False Acceptance Rate (FAR) and Recall w
 After selecting the optimal thresholds and ensuring full integration and connection of the pipeline codes, the final step was integrating everything into the `demo_video.py` script for real-time performance.
 
 This project demonstrates a comprehensive approach to facial identification and spoofing detection, leveraging existing high-performance models and integrating them into a cohesive and functional pipeline.
+
+Finally, demo videos were saved and are available in the `data/results/video/` folder.
