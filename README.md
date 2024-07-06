@@ -1,6 +1,7 @@
 # Facial Identification and Spoofing Detection Project
-
-<img src="logo.webp" alt="Project Logo" width="width: 50%;"/>
+<p align="center">
+  <img src="logo.webp" alt="Project Logo" style="width: 50%;"/>
+</p>
 
 This project focuses on facial identification and spoofing detection. No deep learning models were retrained for this project, as fine-tuning depends on the specific context of different datasets. Instead, we utilized existing high-performance models for the mentioned problems: [FaceNet](https://pypi.org/project/facenet-pytorch/) for face detection and embedding, and [Silent-Face-Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing) for spoofing detection.
 
@@ -70,7 +71,9 @@ For more information, refer to the [MSU Mobile Face Spoofing Database](https://p
 
 #### FAR and Recall vs. Threshold Plot
 
-<img src="data/results/far_recall_spoofing.png" alt="FAR and Recall vs. Threshold" width="width: 50%;"/>
+<p align="center">
+  <img src="data/results/far_recall_spoofing.png" alt="FAR and Recall vs. Threshold" style="width: 80%;"/>
+</p>
 
 This plot illustrates the relationship between False Acceptance Rate (FAR) and Recall as the threshold varies for spoofing detection. The optimal threshold is selected to minimize the difference between FAR and FRR, thus balancing the rate of false acceptances and rejections.
 
@@ -95,8 +98,9 @@ This plot illustrates the relationship between False Acceptance Rate (FAR) and R
 | Value          | 0.1270 | 0.1149 | 0.1391 | 0.0872         | 0.9471  | 0.7179    | 0.8609 | 0.7829   | 0.8789   |
 
 #### FAR and Recall vs. Threshold Plot
-
-<img src="data/results/far_recall_identification.png" alt="FAR and Recall vs. Threshold" width="width: 50%;"/>
+<p align="center">
+  <img src="data/results/far_recall_identification.png" alt="FAR and Recall vs. Threshold" style="width: 80%;"/>
+</p>
 
 This plot demonstrates the variation of False Acceptance Rate (FAR) and Recall with changing thresholds in the context of face identification. The goal is to identify the threshold that minimizes the difference between FAR and FRR, optimizing the trade-off between identification accuracy and error rates.
 
