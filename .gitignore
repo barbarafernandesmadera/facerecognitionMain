@@ -3,7 +3,7 @@ data/videos/real/*
 data/videos/fake/*
 data/db/*
 data/db_raw/*
-data/results/video/katia.mp4
+#data/results/video/katia.mp4
 
 # Ignorar arquivos Problem.md e testes.ipynb
 Problem.md

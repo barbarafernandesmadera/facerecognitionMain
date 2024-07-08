@@ -55,7 +55,7 @@ def main(video_path, output_video):
     out = cv2.VideoWriter(output_video, fourcc, fps, (width, height))
 
     while cap.isOpened():
-        ret, frame q = cap.read()
+        ret, frame = cap.read()
         if not ret:
             break
 
